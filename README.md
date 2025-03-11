@@ -27,13 +27,12 @@ This is day 2 Git-GitHub Assignments
 	Click the "Create repository" button to finalize the setup.
 
 ...If you have an existing local project that you want to push to GitHub, navigate to your project directory in your command line and run:
-bash
 ```
- git init
+bash
+git init
 git add .
 git commit -m "Initial commit"
 ```
-
 •	Then link it to your GitHub repository using:
 ```
 bash
@@ -240,10 +239,7 @@ PRs provide a platform for discussion among collaborators. Team members can comm
 Tracking Changes:
 A pull request encapsulates all changes made in a branch, allowing reviewers to see a clear history of modifications. This visibility is crucial for understanding the context of changes and their impact on the project.
 
-Integration with CI/CD:
-Pull requests can trigger automated workflows (e.g., tests or builds) using GitHub Actions, ensuring that changes meet quality standards before being merged.
-
-Typical Steps Involved in Creating and Merging a Pull Request
+**Typical Steps Involved in Creating and Merging a Pull Request**
 1. Creating a Pull Request
 Develop a Feature or Fix:
 Start by creating a new branch for your feature or bug fix in your local repository:
@@ -253,14 +249,13 @@ git checkout -b feature-branch
 ```
 Make your changes and commit them:
 
-````
+```
 bash
 git add .
 git commit -m "Implement feature XYZ"
 ```
 Push the Branch to GitHub:
 Push your branch to the remote repository:
-
 ```
 bash
 git push origin feature-branch
@@ -296,7 +291,6 @@ Rebase and Merge: Reapplies commits from your branch onto the base branch.
 
 Complete the Merge:
 Click "Merge pull request" followed by "Confirm merge." After merging, you may choose to delete the feature branch to keep the repository tidy
-
 **Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?**
 
 Forking involves creating a distinct copy of an existing repository under your GitHub account. This new repository, known as a "fork," retains the entire codebase and commit history of the original repository (often referred to as the "upstream" repository) but operates independently. Forking allows developers to experiment with changes, implement new features, or fix bugs without affecting the original project.
